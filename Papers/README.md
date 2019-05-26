@@ -2,7 +2,6 @@
 
 Gathering ideas on how to transform an ECG image into raw data, the idea is to convert the data into mm information that later can be associated to voltage and time.
 
-======
 Conversion of ECG Graph Into Digital Format
 ======
 
@@ -17,29 +16,23 @@ The algorithm:
   ** Edge Detection: There are many edge detection algorithms like: Sobel, Canny, Prewitt, Roberts and fuzzy logic methods.
   ** Pixel to vector conversion: The points that are missing are created by interpolating the lines with the points that are in the graph.  
 
-======
 Converting ECG and Other Paper Legated Biomedical Maps Into Digital
 ======
 
-======
 ECG Paper Records Digitization through Image Processing Techniques
 ======
 
-======
 Image Processing on ECG Chart for ECG Signal Recovery
 ======
 
-======
 Straight Line Hough Transform
 ======
 
 
-======
 Citations
 ======
 
-.. code-block::
-
+```
   @article{DBLP:journals/corr/SilvaOL15,
     author    = {Andr{\'{e}} R. Gomes e Silva and
                 H{\'{e}}lio M. de Oliveira and
@@ -93,3 +86,4 @@ Citations
     year={2009},
     organization={IEEE}
   }
+```
