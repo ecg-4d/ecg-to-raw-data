@@ -8,13 +8,13 @@ Conversion of ECG Graph Into Digital Format
 This paper proposes filter to reduce the influence of noise, such as muscle noise, power line and base line wonder, this will help on generating better results for automatic characterization of ECG data.
 
 The algorithm:
-  * Crop Regions of interest: A sub-section of an ECG is selected. In order to retrieve the information from the ECG, then the ECG grid is removed.
-  * Image Binarization: The image now composed only by the ECG line is converted into binary format, this means that we will replace the RGB presentation for 1 where black is found and 0 otherwise.
+  * __Crop Regions of interest:__ A sub-section of an ECG is selected. In order to retrieve the information from the ECG, then the ECG grid is removed.
+  * __Image Binarization:__ The image now composed only by the ECG line is converted into binary format, this means that we will replace the RGB presentation for 1 where black is found and 0 otherwise.
   * Gradient Fature Extraction: The gradients for each point are calculated, the strength and direction indicates edge detection.
-  * Noise Rejection: Noise is removed by assuming that any pixel that is only surrounded by white pixels is noise, so when one of this pixels is find the algorithm just makes it white background.
-  * Image Thining: The line of an ECG is composed of multiple vertical pixels, this data is redundant so we aim to reduce this redundancy, we achieve that by removing extra pixel by running a moving average.
-  * Edge Detection: There are many edge detection algorithms like: Sobel, Canny, Prewitt, Roberts and fuzzy logic methods.
-  * Pixel to vector conversion: The points that are missing are created by interpolating the lines with the points that are in the graph.  
+  * __Noise Rejection:__ Noise is removed by assuming that any pixel that is only surrounded by white pixels is noise, so when one of this pixels is find the algorithm just makes it white background.
+  * __Image Thining:__ The line of an ECG is composed of multiple vertical pixels, this data is redundant so we aim to reduce this redundancy, we achieve that by removing extra pixel by running a moving average.
+  * __Edge Detection:__ There are many edge detection algorithms like: Sobel, Canny, Prewitt, Roberts and fuzzy logic methods.
+  * __Pixel to vector conversion:__ The points that are missing are created by interpolating the lines with the points that are in the graph. 
 
 Converting ECG and Other Paper Legated Biomedical Maps Into Digital
 ======
