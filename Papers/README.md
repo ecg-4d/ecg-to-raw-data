@@ -16,8 +16,6 @@ The algorithm:
   * __Edge Detection:__ There are many edge detection algorithms like: Sobel, Canny, Prewitt, Roberts and fuzzy logic methods.
   * __Pixel to vector conversion:__ The points that are missing are created by interpolating the lines with the points that are in the graph. 
 
-Converting ECG and Other Paper Legated Biomedical Maps Into Digital
-======
 
 ECG Paper Records Digitization through Image Processing Techniques
 ======
@@ -33,23 +31,6 @@ Citations
 ======
 
 ```
-  @article{DBLP:journals/corr/SilvaOL15,
-    author    = {Andr{\'{e}} R. Gomes e Silva and
-                H{\'{e}}lio M. de Oliveira and
-                Rafael Dueire Lins},
-    title     = {Converting {ECG} and other paper legated biomedical maps into digital
-                signals},
-    journal   = {CoRR},
-    volume    = {abs/1502.05906},
-    year      = {2015},
-    url       = {http://arxiv.org/abs/1502.05906},
-    archivePrefix = {arXiv},
-    eprint    = {1502.05906},
-    timestamp = {Mon, 13 Aug 2018 16:48:27 +0200},
-    biburl    = {https://dblp.org/rec/bib/journals/corr/SilvaOL15},
-    bibsource = {dblp computer science bibliography, https://dblp.org}
-  }
-
   @article{DBLP:journals/corr/SilvaOL15,
     author    = {Andr{\'{e}} R. Gomes e Silva and
                 H{\'{e}}lio M. de Oliveira and
