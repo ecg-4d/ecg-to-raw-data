@@ -10,7 +10,7 @@ This paper proposes filter to reduce the influence of noise, such as muscle nois
 The algorithm:
   * __Crop Regions of interest:__ A sub-section of an ECG is selected. In order to retrieve the information from the ECG, then the ECG grid is removed.
   * __Image Binarization:__ The image now composed only by the ECG line is converted into binary format, this means that we will replace the RGB presentation for 1 where black is found and 0 otherwise.
-  * Gradient Fature Extraction: The gradients for each point are calculated, the strength and direction indicates edge detection.
+  * __Gradient Fature Extraction__: The gradients for each point are calculated, the strength and direction indicates edge detection.
   * __Noise Rejection:__ Noise is removed by assuming that any pixel that is only surrounded by white pixels is noise, so when one of this pixels is find the algorithm just makes it white background.
   * __Image Thining:__ The line of an ECG is composed of multiple vertical pixels, this data is redundant so we aim to reduce this redundancy, we achieve that by removing extra pixel by running a moving average.
   * __Edge Detection:__ There are many edge detection algorithms like: Sobel, Canny, Prewitt, Roberts and fuzzy logic methods.
