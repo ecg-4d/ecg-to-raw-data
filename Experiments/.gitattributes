@@ -1,2 +1,5 @@
 Data/ filter=lfs diff=lfs merge=lfs -text
 Models/ filter=lfs diff=lfs merge=lfs -text
+Models/frozen_east_text_detection.pb filter=lfs diff=lfs merge=lfs -text
+Data/ECG_001.jpeg filter=lfs diff=lfs merge=lfs -text
+Data/ECG_001_NG.jpeg filter=lfs diff=lfs merge=lfs -text
